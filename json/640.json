@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #640",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "640.png",
+  "edition": 640,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "army camo "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "pink flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "640.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

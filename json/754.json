@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #754",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "754.png",
+  "edition": 754,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "purple sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "wizard robes "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "754.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

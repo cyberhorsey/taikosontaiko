@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #611",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "611.png",
+  "edition": 611,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "pink sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "jazz design "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "none "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "611.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #505",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "505.png",
+  "edition": 505,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "orange happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "banana yellow "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "black sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "505.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

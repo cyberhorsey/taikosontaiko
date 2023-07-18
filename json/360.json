@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #360",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "360.png",
+  "edition": 360,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "red sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "army camo "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "ciggy "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "360.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #742",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "742.png",
+  "edition": 742,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "blue meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "blue waves "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "742.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

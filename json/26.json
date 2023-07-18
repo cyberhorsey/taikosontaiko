@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #26",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "26.png",
+  "edition": 26,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "devil red "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "26.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -5,11 +5,14 @@ import type { NFT } from "../domain/nft";
 import { NFTType } from "../domain/nft";
 
 export default async function fetchNfts(
-  signer: Signer,
   address: string,
   contractAddress: string
 ): Promise<NFT[]> {
-  const contract = new ethers.Contract(contractAddress, NFT_ABI, signer);
+  const contract = new ethers.Contract(
+    contractAddress,
+    NFT_ABI,
+    new ethers.providers.JsonRpcProvider("https://rpc.l3test.taiko.xyz")
+  );
 
   const tokenIds: BigNumber[] = await contract.walletOfOwner(address);
   return await Promise.all(

@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #1090",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "1090.png",
+  "edition": 1090,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "green "
+    },
+    {
+      "trait_type": "face",
+      "value": "brown happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "pink "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "ciggy "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1090.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

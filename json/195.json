@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #195",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "195.png",
+  "edition": 195,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "orange happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "green "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "purple sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "195.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #122",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "122.png",
+  "edition": 122,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "purple "
+    },
+    {
+      "trait_type": "face",
+      "value": "red happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "neon green "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "peach flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "122.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

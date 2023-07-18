@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #158",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "158.png",
+  "edition": 158,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "brown "
+    },
+    {
+      "trait_type": "face",
+      "value": "purple sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "jazz design "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "none "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "158.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

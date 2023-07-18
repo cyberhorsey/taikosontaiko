@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #1194",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "1194.png",
+  "edition": 1194,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "pink sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "army camo "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "peach flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1194.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

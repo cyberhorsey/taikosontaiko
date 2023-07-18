@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #88",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "88.png",
+  "edition": 88,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "red "
+    },
+    {
+      "trait_type": "face",
+      "value": "brown meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "devil red "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "purple drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "88.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #846",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "846.png",
+  "edition": 846,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "green "
+    },
+    {
+      "trait_type": "face",
+      "value": "orange meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "purple "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "pink flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "846.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

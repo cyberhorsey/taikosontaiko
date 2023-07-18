@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #468",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "468.png",
+  "edition": 468,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "red sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "neon green "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "black sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "468.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

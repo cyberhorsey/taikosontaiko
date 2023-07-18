@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #571",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "571.png",
+  "edition": 571,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "grey chain "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "571.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

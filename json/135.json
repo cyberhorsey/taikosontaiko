@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #135",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "135.png",
+  "edition": 135,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "purple sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "royal love "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "peach flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "135.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

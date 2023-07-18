@@ -5,15 +5,21 @@
   import type { NFT } from "../domain/nft";
   import { signer } from "../store/signer";
   import fetchNfts from "../utils/fetchNfts";
+  import { ethers } from "ethers";
+  import { GetAccountResult, getAccount } from "@wagmi/core";
 
   let nfts: NFT[] = [];
-  async function getTaikosForAddress() {
-    const address = await $signer.getAddress();
-    nfts = await fetchNfts($signer, address, import.meta.env.VITE_CONTRACT_URL);
+  async function getTaikosForAddress(signer: GetAccountResult) {
+    if (!signer) return;
+    const account = await getAccount();
+    nfts = await fetchNfts(account.address, import.meta.env.VITE_CONTRACT_URL);
   }
+
   onMount(async () => {
-    await getTaikosForAddress();
+    await getTaikosForAddress($signer);
   });
+
+  $: getTaikosForAddress($signer).catch(console.error);
 </script>
 
 <div class="max-w-xl">

@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #553",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "553.png",
+  "edition": 553,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "green happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "devil red "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "none "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "553.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

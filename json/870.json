@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #870",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "870.png",
+  "edition": 870,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "brown "
+    },
+    {
+      "trait_type": "face",
+      "value": "teal meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "pink "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blunt "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "870.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

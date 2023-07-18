@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #539",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "539.png",
+  "edition": 539,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "red "
+    },
+    {
+      "trait_type": "face",
+      "value": "pink meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "devil red "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "green sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "539.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

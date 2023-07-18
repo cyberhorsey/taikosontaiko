@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #1033",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "1033.png",
+  "edition": 1033,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "green "
+    },
+    {
+      "trait_type": "face",
+      "value": "yellow sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "yellow "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "apple "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "1033.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

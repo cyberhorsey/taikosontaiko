@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #478",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "478.png",
+  "edition": 478,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "red "
+    },
+    {
+      "trait_type": "face",
+      "value": "purple meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "tie dye "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "purple sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "478.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

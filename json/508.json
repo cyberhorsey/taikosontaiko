@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #508",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "508.png",
+  "edition": 508,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "green "
+    },
+    {
+      "trait_type": "face",
+      "value": "teal sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "blue waves "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "pink flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "508.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

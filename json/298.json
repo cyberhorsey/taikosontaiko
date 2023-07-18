@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #298",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "298.png",
+  "edition": 298,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "devil red "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "yellow drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "298.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

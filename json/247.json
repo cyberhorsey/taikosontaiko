@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #247",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "247.png",
+  "edition": 247,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "purple "
+    },
+    {
+      "trait_type": "face",
+      "value": "purple happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "purple "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "247.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

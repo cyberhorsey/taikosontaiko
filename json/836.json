@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #836",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "836.png",
+  "edition": 836,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "pink "
+    },
+    {
+      "trait_type": "face",
+      "value": "yellow sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "green "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "836.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

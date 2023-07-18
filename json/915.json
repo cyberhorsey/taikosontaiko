@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #915",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "915.png",
+  "edition": 915,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "pink "
+    },
+    {
+      "trait_type": "face",
+      "value": "green happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "jazz design "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "purple drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "915.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

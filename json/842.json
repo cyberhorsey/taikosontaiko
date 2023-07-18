@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #842",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "842.png",
+  "edition": 842,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "yellow happy face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "barbie love "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "banana "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "842.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

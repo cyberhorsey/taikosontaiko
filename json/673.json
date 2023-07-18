@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #673",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "673.png",
+  "edition": 673,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "red meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "wizard robes "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "green sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "673.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

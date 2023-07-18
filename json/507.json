@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #507",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "507.png",
+  "edition": 507,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "pink "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "pink "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "yellow drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "507.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

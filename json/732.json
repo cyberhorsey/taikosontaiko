@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #732",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "732.png",
+  "edition": 732,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "red "
+    },
+    {
+      "trait_type": "face",
+      "value": "yellow sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "blue waves "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "none "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "732.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

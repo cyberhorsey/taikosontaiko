@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #985",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "985.png",
+  "edition": 985,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "green "
+    },
+    {
+      "trait_type": "face",
+      "value": "pink sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "orange "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "pink flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "985.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

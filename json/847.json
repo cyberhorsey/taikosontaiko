@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #847",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "847.png",
+  "edition": 847,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "red "
+    },
+    {
+      "trait_type": "face",
+      "value": "pink sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "kenny orange "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "banana "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "847.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

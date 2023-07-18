@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #491",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "491.png",
+  "edition": 491,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "brown "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "royal love "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "peach flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "491.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

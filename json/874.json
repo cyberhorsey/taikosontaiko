@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #874",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "874.png",
+  "edition": 874,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "teal sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "royal love "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "874.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

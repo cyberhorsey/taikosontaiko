@@ -876,13 +876,15 @@ contract TaikosOnTaiko is ERC721, Ownable {
     string public uriSuffix = ".json";
     string public hiddenMetadataUri;
 
-    uint256 public maxSupply = 8888;
-    uint256 public maxMintAmountPerTx = 3;
+    uint256 public maxSupply = 1234;
+    uint256 public maxMintAmountPerTx = 1;
 
     bool public paused = true;
     mapping(address => bool) hasMinted;
 
-    constructor() ERC721("taiksontaiko", "tot") Ownable() {}
+    constructor() ERC721("taikosontaiko", "tont") Ownable() {
+        uriPrefix = "https://arweave.net/1zYFEFETdEkjMKdepN_hoFxW3H48CXTymP-7BilQkm0/";
+    }
 
     modifier antiduke(uint256 _mintAmount) {
         require(

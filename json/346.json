@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #346",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "346.png",
+  "edition": 346,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell sad face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "yellow "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue drink "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "346.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

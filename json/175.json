@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #175",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "175.png",
+  "edition": 175,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "black "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "grey chain "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "purple flower "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "175.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

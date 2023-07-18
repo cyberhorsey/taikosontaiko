@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #447",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "447.png",
+  "edition": 447,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "brown "
+    },
+    {
+      "trait_type": "face",
+      "value": "blue meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "jazz design "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "apple "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "447.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

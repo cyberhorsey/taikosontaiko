@@ -1,0 +1,38 @@
+{
+  "name": "taikosontaiko #270",
+  "symbol": "tont",
+  "description": "1,234 taikos on taiko",
+  "image": "270.png",
+  "edition": 270,
+  "attributes": [
+    {
+      "trait_type": "background",
+      "value": "sike there's no background"
+    },
+    {
+      "trait_type": "outline",
+      "value": "blue "
+    },
+    {
+      "trait_type": "face",
+      "value": "eggshell meh face "
+    },
+    {
+      "trait_type": "hoodie",
+      "value": "orange "
+    },
+    {
+      "trait_type": "accessory",
+      "value": "blue sunglasses "
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "270.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
