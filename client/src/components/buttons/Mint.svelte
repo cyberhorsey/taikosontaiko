@@ -10,7 +10,7 @@
   } from "@wagmi/core";
   import { taikoWagmiChain } from "../../domain/chain";
   import axios from "axios";
-  import { NFT } from "../../domain/nft";
+  import type { NFT } from "../../domain/nft";
   import fetchNfts from "../../utils/fetchNfts";
   import Nft from "../NFT.svelte";
 
@@ -19,47 +19,53 @@
   let message: string = "";
   let taikosImages: string[] = [];
   let nfts: NFT[] = [];
+  let loading: boolean = false;
 
   async function mint() {
-    const network = getNetwork();
-    if (network.chain.id !== taikoWagmiChain.id) {
-      message =
-        "On wrong chain, go to ur metamask pr w/e wallet and change it to taiko L3 then refresh the page cause i didnt do the .on accounts changed thing, fml";
-      return;
-    }
+    try {
+      const network = getNetwork();
+      if (network.chain.id !== taikoWagmiChain.id) {
+        message =
+          "On wrong chain, go to ur metamask pr w/e wallet and change it to taiko L3 then refresh the page cause i didnt do the .on accounts changed thing, fml";
+        return;
+      }
 
-    const { hash } = await writeContract({
-      address: import.meta.env.VITE_CONTRACT_URL,
-      abi: NFT_ABI,
-      functionName: "mint",
-      args: [1],
-    });
-    txHash = hash;
-    await waitForTransaction({
-      confirmations: 1,
-      hash: txHash as `0x${string}`,
-      timeout: 10000000000,
-    });
-    minted = true;
+      const { hash } = await writeContract({
+        address: import.meta.env.VITE_CONTRACT_URL,
+        abi: NFT_ABI,
+        functionName: "mint",
+        args: [1],
+      });
+      txHash = hash;
+      await waitForTransaction({
+        confirmations: 1,
+        hash: txHash as `0x${string}`,
+        timeout: 10000000000,
+      });
+      minted = true;
 
-    // todo: get the images u minted
-    const tokenIds = await readContract({
-      address: import.meta.env.VITE_CONTRACT_URL,
-      abi: NFT_ABI,
-      functionName: "walletOfOwner",
-      args: [getAccount().address],
-    });
+      // todo: get the images u minted
+      const tokenIds = await readContract({
+        address: import.meta.env.VITE_CONTRACT_URL,
+        abi: NFT_ABI,
+        functionName: "walletOfOwner",
+        args: [getAccount().address],
+      });
 
-    tokenIds.map((tokenID) => {
-      taikosImages.push(
-        `https://arweave.net/bTsUb75y4wcv7McD8-5ffdEpazhrxZyVCwTH7EE1Vy0/${tokenID}.png`
+      tokenIds.map((tokenID) => {
+        taikosImages.push(
+          `https://arweave.net/bTsUb75y4wcv7McD8-5ffdEpazhrxZyVCwTH7EE1Vy0/${tokenID}.png`
+        );
+      });
+
+      nfts = await fetchNfts(
+        getAccount().address,
+        import.meta.env.VITE_CONTRACT_URL
       );
-    });
-
-    nfts = await fetchNfts(
-      getAccount().address,
-      import.meta.env.VITE_CONTRACT_URL
-    );
+    } catch {
+    } finally {
+      loading = false;
+    }
   }
 </script>
 
@@ -67,12 +73,14 @@
   <h2 style="color:red;">{message}</h2>
 {/if}
 
-{#if $amount}
-  there are this many minted: {$amount} out of 2222
-{/if}
-
 {#if !minted}
-  <div class="btn btn-accent" on:click={async () => await mint()}>LFG</div>
+  <button
+    class="btn btn-accent"
+    disabled={loading}
+    on:click={async () => await mint()}
+  >
+    LFG, lets mint baby!
+  </button>
 {:else}
   <div>
     {#if nfts && nfts.length}

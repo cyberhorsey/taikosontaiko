@@ -33,7 +33,7 @@
       info:
     </h2>
     <p>- free mint on taiko l3 -</p>
-    <p>- 2222 total-</p>
+    <p>- 1234 total-</p>
     <p>- holders receive them on taiko mainnet later -</p>
 
     <div class="card-body">

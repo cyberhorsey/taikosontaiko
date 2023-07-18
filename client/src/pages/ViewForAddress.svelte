@@ -5,8 +5,8 @@
   import type { NFT } from "../domain/nft";
   import { signer } from "../store/signer";
   import fetchNfts from "../utils/fetchNfts";
-  import { ethers } from "ethers";
-  import { GetAccountResult, getAccount } from "@wagmi/core";
+  import { getAccount } from "@wagmi/core";
+  import type { GetAccountResult } from "@wagmi/core";
 
   let nfts: NFT[] = [];
   async function getTaikosForAddress(signer: GetAccountResult) {
