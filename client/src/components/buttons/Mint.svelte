@@ -40,7 +40,7 @@
       await waitForTransaction({
         confirmations: 1,
         hash: txHash as `0x${string}`,
-        timeout: 10000000000,
+        timeout: 0,
       });
       minted = true;
 

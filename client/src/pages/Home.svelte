@@ -33,17 +33,14 @@
       info:
     </h2>
     <p>- free mint on taiko l3 -</p>
-    <p>- 1234 total-</p>
+    <p>- 1234 total -</p>
     <p>- holders receive them on taiko mainnet later -</p>
+    <p>- MINTED OUT -</p>
 
     <div class="card-body">
       {#if !$signer}
         <ConnectWallet />
       {:else}
-        <Mint />
-        <br />
-        or <br />
-        <br />
         <button class="btn" on:click={() => push("/viewForAddress")}
           >view ur taikos</button
         >
