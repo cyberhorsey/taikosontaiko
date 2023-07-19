@@ -22,12 +22,12 @@
 <div class="nft">
   {nft.name} <br />
   <img class="inline-block" src={nft.image} /> <br />
-  <!-- <input type="text" bind:value={to} placeholder="0x..." />
+  <input type="text" bind:value={to} placeholder="0x..." />
   <br />
   <button on:click={transfer}>
     Transfer {nft.name}
     <br />
-  </button> -->
+  </button>
 </div>
 
 <style>
